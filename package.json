@@ -1,0 +1,47 @@
+{
+  "name": "saas-reviews-scraper",
+  "version": "1.0.0",
+  "description": "A comprehensive Node.js scraper for collecting SaaS product reviews from G2, Capterra, and TrustRadius",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js",
+    "dev": "node index.js --verbose"
+  },
+  "keywords": [
+    "scraper",
+    "reviews",
+    "saas",
+    "g2",
+    "capterra",
+    "trustradius",
+    "nodejs",
+    "puppeteer"
+  ],
+  "author": "SaaS Reviews Scraper",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-finder": "^1.0.7",
+    "commander": "^11.1.0",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "fs-extra": "^11.1.1",
+    "moment": "^2.29.4",
+    "proxy-agent": "^6.5.0",
+    "puppeteer": "^21.11.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/saas-reviews-scraper"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/saas-reviews-scraper/issues"
+  }
+}
